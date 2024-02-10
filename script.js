@@ -30,7 +30,9 @@ function handleYesClick() {
   titleElement.innerHTML = "Yayyy!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
-  https://codepen.io/smncreative/pen/MWxPyMe;
+ function openTab() {
+    window.open("https://codepen.io/smncreative/pen/MWxPyMe");
+    }
 }
 
 function resizeYesButton() {
