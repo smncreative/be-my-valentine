@@ -30,9 +30,12 @@ function handleYesClick() {
   titleElement.innerHTML = "Yayyy!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
+  <button onclick="openTab()">guess what</button>
+  <script>
  function openTab() {
     window.open("https://codepen.io/smncreative/pen/MWxPyMe");
     }
+    </script>
 }
 
 function resizeYesButton() {
